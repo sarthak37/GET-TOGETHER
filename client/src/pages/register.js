@@ -36,8 +36,8 @@ const Register = () => {
         <div className="auth_page">
             <form onSubmit={handleSubmit}>
             <h3 className="text-center mb-4">
-                <span style={{ fontWeight: 'bold', color: 'black' }}>High</span>
-                <span style={{ fontWeight: 'bold', color: '#00BFFF' }}>on</span>
+                <span style={{ fontWeight: 'bold', color: 'black' }}>Get</span>
+                <span style={{ fontWeight: 'bold', color: '#00BFFF' }}>Together</span>
                 </h3>
 
                 <div className="form-group">
