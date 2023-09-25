@@ -23,7 +23,7 @@ const postCtrl = {
             const { content, images } = req.body
 
             if(images.length === 0)
-            return res.status(400).json({msg: "Please add your photo."})
+            return res.status(400).json({msg: "Please add  photo for creating the post."})
 
             const newPost = new Posts({
                 content, images, user: req.user._id

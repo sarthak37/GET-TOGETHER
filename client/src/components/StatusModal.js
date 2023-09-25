@@ -78,7 +78,7 @@ const StatusModal = () => {
         e.preventDefault()
         if(images.length === 0)
         return dispatch({ 
-            type: GLOBALTYPES.ALERT, payload: {error: "Please add your photo."}
+            type: GLOBALTYPES.ALERT, payload: {error: "Please add  photo for creating the post."}
         })
 
         if(status.onEdit){
@@ -191,7 +191,7 @@ const StatusModal = () => {
 
                 <div className="status_footer">
                     <button className="btn btn-secondary w-100" type="submit">
-                        Tweet
+                        Create Post
                     </button>
                 </div>
 

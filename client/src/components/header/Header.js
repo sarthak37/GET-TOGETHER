@@ -13,8 +13,8 @@ const Header = () => {
                 <Link to="/" className="logo">
                     <h1 className="navbar-brand  p-0 m-0"
                     onClick={() => window.scrollTo({top: 0})}>
-                        <span style={{ fontWeight: 'bold', color: 'black' }}>High</span>
-                        <span style={{ fontWeight: 'bold', color: '#00BFFF' }}>on</span>
+                        <span style={{ fontWeight: 'bold', color: 'black' }}>Get</span>
+                        <span style={{ fontWeight: 'bold', color: '#00BFFF' }}>Together</span>
                     </h1>
                 </Link>
 
